@@ -1,0 +1,21 @@
+# Site settings
+title: Plick Candoo Home Renovation
+name: Plick Candoo
+email: quotes@plickcandoo.com
+address: 46 Caronia Square <br> Toronto M1B 2Z8 <br> ON Canada
+description: > # this means to ignore newlines until "baseurl:"
+  Plick Candoo is honored to put in your service 16 years of experience in general construction and home renovation from Paris (France) to United States and Canada, with thousands of successfully realized projects, we can guarantee to put a smile on your face.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://plickcandoo.com" # the base hostname & protocol for your site
+facebook_address: https://www.facebook.com/plickcandoo
+instagram_address: https://www.instagram.com/plickcandoo/
+google_address: plickcandoo
+phone: (647) 530-9469
+rawphone: 6475309469
+gems: [jekyll-seo-tag]
+collections:
+  services:
+    output: true
+    
+# Build settings
+markdown: kramdown
