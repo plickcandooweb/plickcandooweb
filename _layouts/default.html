@@ -27,10 +27,10 @@
 
         {% if page.active == 'gallery' %}
 
-            <script src="{{"/js/masonry.min.js" | prepend: site.baseurl}}"></script>
+            <script src="{{"/js/masonry.min.js" | prepend: site.baseurl}}" defer></script>
             <link rel="stylesheet" href="{{ "/css/lightbox.min.css" | prepend: site.baseurl }}">
-            <script src="{{"/js/lightbox.min.js" | prepend: site.baseurl}}"></script>
-            <script src="{{"/js/gallery.min.js" | prepend: site.baseurl}}"></script>
+            <script src="{{"/js/lightbox.min.js" | prepend: site.baseurl}}" defer></script>
+            <script src="{{"/js/gallery.min.js" | prepend: site.baseurl}}" defer></script>
 
         {% endif %}
 
