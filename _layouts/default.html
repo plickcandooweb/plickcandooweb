@@ -6,9 +6,8 @@
 		
 		{{ content }}		
 
-		{% include footer.html %}
-        <link rel="stylesheet" href="{{ "/css/font-awesome.min.css" | prepend: site.baseurl }}">
-        <link rel="stylesheet" href="{{ "/css/icofont.min.css" | prepend: site.baseurl }}">
+		{% include footer.html %}        
+        <link rel="stylesheet" href="{{ "/css/icons.min.css" | prepend: site.baseurl }}">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" defer></script>
@@ -20,15 +19,15 @@
         
         {% if page.active == 'contact' %}
 
-            <script src="{{"/js/jquery.validate.min.js" | prepend: site.baseurl}}"></script>
+            <script src="{{"/js/jquery.validate.min.js" | prepend: site.baseurl}}" defer></script>
             {%include contact.html %}
 
         {% endif %}
 
         {% if page.active == 'gallery' %}
 
-            <script src="{{"/js/masonry.min.js" | prepend: site.baseurl}}" defer></script>
             <link rel="stylesheet" href="{{ "/css/lightbox.min.css" | prepend: site.baseurl }}">
+            <script src="{{"/js/masonry.min.js" | prepend: site.baseurl}}" defer></script>            
             <script src="{{"/js/lightbox.min.js" | prepend: site.baseurl}}" defer></script>
             <script src="{{"/js/gallery.min.js" | prepend: site.baseurl}}" defer></script>
 
