@@ -429,9 +429,11 @@ fieldset[disabled] .btn-danger.active {
     margin-right: 10px;
 }
 .title
-{
+{    
+    
+    font-family: 'Stardos Stencil', serif;
     border-bottom:solid 4px #B94A00;
-    display:inline-block;
+    display:inline-block;        
 	margin-bottom:40px;
     font-weight: bold;
     padding-bottom:10px;
@@ -862,7 +864,8 @@ fieldset[disabled] .btn-danger.active {
 	margin:150px 0 0 0;
 }
 .slogan-holder h1
-{
+{    
+    font-family: 'Stardos Stencil', serif;
     font-size: 40px;
     font-weight: bold;
 	text-transform: uppercase;

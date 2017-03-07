@@ -1,4 +1,5 @@
-(function(){    
+(function() {
+    
     var homeSlider = $('#home-slider').bxSlider({        
         auto: true,
         pager:false,
