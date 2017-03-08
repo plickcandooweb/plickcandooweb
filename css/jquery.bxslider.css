@@ -12,12 +12,20 @@
 
 
 /** Single Home Slider **/
+#home-slider
+{
+	padding: 0;
+}
 #home-slider li
 {
     height:450px;
 }
 
 /** Work Slider **/
+#work-slider
+{
+	padding: 0;
+}
 #work-slider li img
 {
     width:100% !important;

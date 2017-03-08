@@ -13,7 +13,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     
-	<link rel="stylesheet" href="{{ "/css/site.min.css" | prepend: site.baseurl }}">	
+	<link rel="stylesheet" href="{{ "/css/site.min.css" | prepend: site.baseurl }}">
 	<link rel="stylesheet" href="{{ "/css/jquery.bxslider.min.css" | prepend: site.baseurl }}">
     
     <!--[if IE 9]>
@@ -22,9 +22,7 @@
 
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 	<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
-    
-    {% seo %}
-    
+            
     <link rel="apple-touch-icon" sizes="57x57" href="{{site.baseurl}}/images/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="{{site.baseurl}}/images/favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="{{site.baseurl}}/images/favicon/apple-icon-72x72.png">
@@ -42,4 +40,6 @@
     <noscript>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Stardos+Stencil:700" rel="stylesheet">
     </noscript>
+
+    {% seo %}
 </head>

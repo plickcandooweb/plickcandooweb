@@ -1,17 +1,19 @@
 (function() {
     
-    var homeSlider = $('#home-slider').bxSlider({        
+    $('#home-slider').bxSlider({        
+        mode: 'fade',
         auto: true,
         pager:false,
-        pause: 5000,
-        speed: 800
+        pause: 8000,
+        speed: 1000        
     });
     
     $('#work-slider').bxSlider({
+        mode: 'fade',
         auto: true,
         pager:true,
-        pause: 5000,
-        speed: 800
+        pause: 8000,
+        speed: 1000
     });
 
     $('.card').hover(
