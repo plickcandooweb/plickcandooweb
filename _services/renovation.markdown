@@ -18,7 +18,7 @@ active: services
             {{page.title}}
         </h3>
         <p>        
-			Home improvement, home renovation or remodeling we process to renovating or making additions to our customer's home.
+			Home improvement, home renovation or remodeling we proceed to renovating or making additions to our customers home, either for an Eco-friendly, cosmetic, safety purpose.
         </p>
     </div>
 </div>

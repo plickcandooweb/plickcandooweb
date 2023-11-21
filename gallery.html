@@ -3,89 +3,46 @@ layout: default
 active: gallery
 title: "Our Gallery"
 description: "A showcase of our more recent projects, home renovation, construction and interior design."
-images:
-    - title: "Basement Renovation"
-      path: "/images/gallery/1.jpg"
-      path_lg: "/images/gallery/1-lg.jpg"
-    - title: "Washroom Renovation"
-      path: "/images/gallery/2.jpg"
-      path_lg: "/images/gallery/2-lg.jpg"
-    - title: "Washroom Renovation"
-      path: "/images/gallery/3.jpg"
-      path_lg: "/images/gallery/3-lg.jpg"
-    - title: "Kitchen Renovation"      
-      path: "/images/gallery/4.jpg"
-      path_lg: "/images/gallery/4-lg.jpg"
-    - title: "Kitchen Renovation"
-      path: "/images/gallery/5.jpg"
-      path_lg: "/images/gallery/5-lg.jpg"
-    - title: "Patio Design and Renovation"
-      path: "/images/gallery/6.jpg"
-      path_lg: "/images/gallery/6-lg.jpg"
-    - title: "Bathroom Renovation"
-      path: "/images/gallery/7.jpg"
-      path_lg: "/images/gallery/7-lg.jpg"
-    - title: "Wall Tiles"
-      path: "/images/gallery/8.jpg"
-      path_lg: "/images/gallery/8-lg.jpg"
-    - title: "Shower"
-      path: "/images/gallery/9.jpg"    
-      path_lg: "/images/gallery/9-lg.jpg"
-    - title: "Kitchen Design & Renovation"
-      path: "/images/gallery/10.jpg"    
-      path_lg: "/images/gallery/10-lg.jpg"
-    - title: "Paint"
-      path: "/images/gallery/11.jpg"    
-      path_lg: "/images/gallery/11-lg.jpg"
-    - title: "Deck"
-      path: "/images/gallery/12.jpg"    
-      path_lg: "/images/gallery/12-lg.jpg"
 ---
 
 <section>
-    <div class='default-row gallery-row'>
-        <div class='container'>
-            <div class='row'>
-                <div class='col-xs-12'>
-                    <h1 class='title'>
-                        {{ page.title }}
-                    </h1>                
-                </div>
-            </div>
-        </div>        
-    </div>
-
-    <div class='default-row stripe-row'>
-        <div class='container'>        
-            <div class='row'>
-                <ol class="breadcrumb">
-                  <li><a href="{{site.baseurl}}/">Home</a></li>              
-                  <li class="active">{{page.title}}</li>
-                </ol>
-            </div>
-            <div class='row'>
-                <div id='masonry'>
-                    {% for image in page.images %}
-
-                    <div class='col-md-4 col-sm-6 col-xs-12 grid-item'>
-                        <div class='gallery-image'>
-                            <a href='{{ image.path_lg }}' data-lightbox='{{ image.path_lg }}'>
-                            <img src='{{ image.path }}' alt='{{ image.title }}' class='img-responsive' />
-                            <div class='image-description'>
-                                <strong>
-                                    <i class="fa fa-check" aria-hidden="true"></i>
-                                    {{ image.title }}
-                                </strong>
-                            </div>     
-                            </a>
-                        </div>
-                    </div>
-
-                    {% endfor %}
-                </div>
-                <div class='clearfix'></div>
-            </div>
+  <div class='default-row gallery-row'>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-xs-12'>
+          <h1 class='title'>
+            {{ page.title }}
+          </h1>
         </div>
+      </div>
     </div>
+  </div>
+
+  <div class='default-row stripe-row'>
+    <div class='container'>
+      <div class='row'>
+        <ol class="breadcrumb">
+          <li><a href="{{site.baseurl}}/">Home</a></li>
+          <li class="active">{{page.title}}</li>
+        </ol>
+      </div>
+      <div class='row'>
+        <div id='masonry'>
+
+          {% for i in (1..81) %}
+          <div class='col-md-4 col-sm-6 col-xs-12 grid-item'>
+            <div class='gallery-image'>
+              <a href='images/gallery/{{ i }}-lg.jpg' data-lightbox='{{ i }}'>
+                <img src='images/gallery/{{ i }}.jpg' alt='{{ i }}' class='img-responsive' />
+              </a>
+            </div>
+          </div>
+          {% endfor %}
+
+        </div>
+        <div class='clearfix'></div>
+      </div>
+    </div>
+  </div>
 </section>
 {% include quote.html %}

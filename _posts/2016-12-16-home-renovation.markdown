@@ -9,29 +9,7 @@ image: P3-Thumb.jpg
 active: work
 ---
 
-<div class='col-md-9 col-sm-12'>
-    <ul id='work-slider' class='bxslider'>                    
-        <li>
-            <img src="{{site.baseurl}}/images/P3-1.jpg" alt="Deck 1" class='img-responsive img-border' />
-        </li>
-        <li>
-            <img src="{{site.baseurl}}/images/P3-2.jpg" alt="Deck 2" class='img-responsive img-border' />
-        </li>
-        <li>
-            <img src="{{site.baseurl}}/images/P3-3.jpg" alt="Deck 3" class='img-responsive img-border' />
-        </li>        
-        <li>
-            <img src="{{site.baseurl}}/images/P3-4.jpg" alt="Deck 2" class='img-responsive img-border' />
-        </li>        
-        <li>
-            <img src="{{site.baseurl}}/images/P3-5.jpg" alt="Deck 2" class='img-responsive img-border' />
-        </li>        
-        <li>
-            <img src="{{site.baseurl}}/images/P3-7.jpg" alt="Deck 2" class='img-responsive img-border' />
-        </li>
-    </ul>
-</div>
-<div class='col-md-3 col-sm-4 col-xs-12 animated'>
+<div class='col-xs-12 animated'>
     <h3 class='sub-title'>
         Summary
     </h3>
@@ -42,14 +20,7 @@ active: work
                 <br>
                 Residential                
             </p>                
-        </li>
-        <li>
-            <p>
-                <strong> Year </strong> 
-                <br>
-                2016
-            </p>                
-        </li>
+        </li>        
         <li>                
             <p>
                 <strong> City </strong> 
@@ -90,3 +61,10 @@ active: work
         </li>
     </ul>
 </div>    
+
+<div class='col-xs-12'>
+    <video controls autoplay muted width="100%">
+        <source src="{{site.baseurl}}/images/home-renovations.mp4" type="video/mp4">
+          Your browser does not support video.
+    </video>    
+</div>

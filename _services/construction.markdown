@@ -18,7 +18,8 @@ active: services
             {{page.title}}
         </h3>
         <p>        
-			We offer commitment at all levels of building project, from preparing for construction to construction management services. For years, we have successfully met our client’s demand for cost effective and responsive services.
+			We are offering our commitment to ensure quality in every construction project guided by the Provincial Building Code.
+            For years, we have successfully met our customers demands with cost effective and responsive services.
         </p>
     </div>
 </div>

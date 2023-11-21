@@ -11,28 +11,7 @@ image: P2-Thumb.jpg
 active: work
 ---
 
-<div class='col-md-9 col-sm-12'>
-    <ul id='work-slider' class='bxslider'>                    
-        <li>
-            <img src="{{site.baseurl}}/images/P2-1-basement.jpg" alt="Deck 1" class='img-responsive img-border' />
-        </li>
-        <li>
-            <img src="{{site.baseurl}}/images/P2-2-basement.jpg" alt="Deck 2" class='img-responsive img-border' />
-        </li>
-        <li>
-            <img src="{{site.baseurl}}/images/P2-3-basement.jpg" alt="Deck 3" class='img-responsive img-border' />
-        </li>        
-        <li>
-            <img src="{{site.baseurl}}/images/P2-6-basement.jpg" alt="Deck 2" class='img-responsive img-border' />
-        </li>        
-        <!--
-        <li>
-            <img src="{{site.baseurl}}/images/P2-4-basement.jpg" alt="Deck 4" class='img-responsive img-border' />
-        </li>                    
-        -->
-    </ul>
-</div>
-<div class='col-md-3 col-sm-4 col-xs-12 animated'>
+<div class='col-xs-12 animated'>
     <h3 class='sub-title'>
         Summary
     </h3>
@@ -43,21 +22,7 @@ active: work
                 <br>
                 Residential                
             </p>                
-        </li>
-        <li>
-            <p>
-                <strong> Year </strong> 
-                <br>
-                2016
-            </p>                
-        </li>
-        <li>                
-            <p>
-                <strong> City </strong> 
-                <br>
-                Toronto
-            </p>                
-        </li>
+        </li>        
     </ul>
 
     <h3 class='sub-title'>
@@ -69,7 +34,7 @@ active: work
         </li>
     </ul>
 </div>
-<div class='col-md-9 col-sm-8 col-xs-12 animated'>
+<div class='col-xs-12 animated'>
     <h3 class='sub-title'>
         Project Details
     </h3>
@@ -91,4 +56,71 @@ active: work
             Idea to final solution
         </li>
     </ul>
-</div>    
+</div>
+
+<div class="col-xs-12">
+    <video controls autoplay muted width="100%">
+        <source src="{{site.baseurl}}/images/basement-renovations.mp4" type="video/mp4">
+          Your browser does not support video.
+    </video>
+</div>
+
+<div class="col-md-6 col-xs-12">
+    <img src="{{site.baseurl}}/images/basement/1.jpg" alt="Basement 1" class='img-responsive img-border' />
+</div>
+<div class="col-md-6 col-xs-12">
+    <img src="{{site.baseurl}}/images/basement/2.jpg" alt="Basement 2" class='img-responsive img-border' />
+</div>
+<div class="col-md-6 col-xs-12">
+    <img src="{{site.baseurl}}/images/basement/3.jpg" alt="Basement 3" class='img-responsive img-border' />
+</div>        
+<div class="col-md-6 col-xs-12">
+    <img src="{{site.baseurl}}/images/basement/4.jpg" alt="Basement 4" class='img-responsive img-border' />
+</div>                
+<div class="col-md-6 col-xs-12">
+    <img src="{{site.baseurl}}/images/basement/5.jpg" alt="Basement 5" class='img-responsive img-border' />
+</div>
+<div class="col-md-6 col-xs-12">
+    <img src="{{site.baseurl}}/images/basement/6.jpg" alt="Basement 6" class='img-responsive img-border' />
+</div>
+<div class="col-md-6 col-xs-12">
+    <img src="{{site.baseurl}}/images/basement/7.jpg" alt="Basement 7" class='img-responsive img-border' />
+</div>        
+<div class="col-md-6 col-xs-12">
+    <img src="{{site.baseurl}}/images/basement/8.jpg" alt="Basement 8" class='img-responsive img-border' />
+</div>                
+<div class="col-md-6 col-xs-12">
+    <img src="{{site.baseurl}}/images/basement/9.jpg" alt="Basement 9" class='img-responsive img-border' />
+</div>
+<div class="col-md-6 col-xs-12">
+    <img src="{{site.baseurl}}/images/basement/10.jpg" alt="Basement 10" class='img-responsive img-border' />
+</div>
+<div class="col-md-6 col-xs-12">
+    <img src="{{site.baseurl}}/images/basement/11.jpg" alt="Basement 11" class='img-responsive img-border' />
+</div>        
+<div class="col-md-6 col-xs-12">
+    <img src="{{site.baseurl}}/images/basement/12.jpg" alt="Basement 12" class='img-responsive img-border' />
+</div>                
+<div class="col-md-6 col-xs-12">
+    <img src="{{site.baseurl}}/images/basement/13.jpg" alt="Basement 13" class='img-responsive img-border' />
+</div>
+<div class="col-md-6 col-xs-12">
+    <img src="{{site.baseurl}}/images/basement/14.jpg" alt="Basement 14" class='img-responsive img-border' />
+</div>
+<div class="col-md-6 col-xs-12">
+    <img src="{{site.baseurl}}/images/basement/15.jpg" alt="Basement 15" class='img-responsive img-border' />
+</div>        
+<div class="col-md-6 col-xs-12">
+    <img src="{{site.baseurl}}/images/basement/16.jpg" alt="Basement 16" class='img-responsive img-border' />
+</div>                
+<div class="col-md-6 col-xs-12">
+    <img src="{{site.baseurl}}/images/basement/17.jpg" alt="Basement 17" class='img-responsive img-border' />
+</div>
+<div class="col-md-6 col-xs-12">
+    <img src="{{site.baseurl}}/images/basement/18.jpg" alt="Basement 18" class='img-responsive img-border' />
+</div>
+<div class="col-md-6 col-xs-12">
+    <img src="{{site.baseurl}}/images/basement/19.jpg" alt="Basement 19" class='img-responsive img-border' />
+</div>
+    
+    
