@@ -27,7 +27,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   home renovation from Paris (France) to United States and Canada, with thousands of successfully realized projects, 
   we can guarantee to put a smile on your face.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://plickcandoo.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://plickcandoo.com" # the base hostname & protocol for your site, e.g. http://example.com
 facebook_address: https://www.facebook.com/plickcandooreno
 instagram_address: https://www.instagram.com/plickcandoo/
 phone: (647) 530-9469
