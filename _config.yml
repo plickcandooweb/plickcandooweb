@@ -31,10 +31,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://plickcandoo.com" # the base hostname & protocol for your site, e.g. http://example.com
 facebook_address: https://www.facebook.com/plickcandooreno
 instagram_address: https://www.instagram.com/plickcandoo/
-phone: (416) 451-7493
-rawphone: 4164517493
-hrphone: (647) 530-9469
-rawhrphone: 6475309469
+phone: (647) 530-9469
+rawphone: 6475309469
+hrphone: (647) 502-4561
+rawhrphone: 6475024561
 
 # Build settings
 theme: minima
